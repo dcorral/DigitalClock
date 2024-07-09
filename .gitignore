@@ -1,0 +1,70 @@
+# Ignore build directories
+build/
+Build/
+.cache/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Qt generated files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Ignore user-specific Qt Creator files
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+
+# Ignore project files created by Qt Creator
+*.pro.user
+*.qbs.user
+*.pro.user.*
+*.qbs.user.*
+*.pro~
+*.pro.*
+*.qbs.*
+
+# Ignore binary files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+
+# Ignore compile_commands.json
+compile_commands.json
+
+# Ignore Qt Creator project files
+*.creator*
+*.config
+*.creator.*
+
+# Ignore other generated files
+*.moc
+*.qmlc
+*.jsc
+
+# Ignore debug and release directories
+debug/
+release/
+
+# Ignore any logs or temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other common files
+*.swp
+*~
+
